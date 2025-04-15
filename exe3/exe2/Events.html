@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+    <title>Test Esercizio 2</title>
+    <link rel="stylesheet" href="./css/newStyles.css">
+    <script src="./js/jsEvents.js"></script>
+	</head>
+	
+	<body onLoad="setUp()">
+		<header><h1>Esercitazione 2 - Es. Eventi</h1></header>
+		<nav>
+			<ol>
+				<li><a href="index.html">Index</a></li>
+				<li><a href="Messaggio_1.html">Es. Messaggio 1</a></li>
+				<li><a href="Messaggio_2.html">Es. Messaggio 2</a></li>
+				<li><a href="Calcolatrice_1.html">Es. Calcolatrice 1</a></li>
+				<li><a href="Calcolatrice_2.html">Es. Calcolatrice 2</a></li>
+				<li><a href="Calcolatrice_3.html">Es. Calcolatrice 3</a></li>
+				<li><a href="Events.html">Es. Eventi</a></li>
+				<li><a href="Overlay.html">Es. Overlay</a></li>
+				<li><a href="Animazione.html">Es. Animazione</a></li>
+				<li><a href="../index.php">Back Home</a></li>	   	
+			</ol>           
+		</nav>
+	
+		<div id="content">
+			<form name="myForm">
+				<input type="text" id="nome" placeholder="Nome" onchange="cleanInput()" />
+				<input type="text" id="cognome" placeholder="Cognome" />
+				<input type="text" id="data" placeholder="Data nascita: dd.mm.yyyy"/>
+				<input type="text" id="eta" placeholder="Età della persona"/>
+				<input type="text" id="cf" placeholder="Codice Fiscale"/>
+				<input type="submit" value="Check"/>
+			</form>
+	    
+			<div id="risultato">
+					...
+			</div>
+		</div>
+
+		<footer>footer</footer>
+	</body>
+</html>

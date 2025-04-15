@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overlay</title>
+    <link rel="stylesheet" href="./css/newStyles.css">
+    <link rel="stylesheet" href="./css/overlay.css">
+    <script src="./js/jsOverlay.js"></script>
+</head>
+
+<body>
+	<body onLoad="setUp()">
+		<header><h1>Esercitazione 2 - Es. Overlay</h1></header>
+		<nav>
+			<ol>
+				<li><a href="index.html">Index</a></li>
+				<li><a href="Messaggio_1.html">Es. Messaggio 1</a></li>
+				<li><a href="Messaggio_2.html">Es. Messaggio 2</a></li>
+				<li><a href="Calcolatrice_1.html">Es. Calcolatrice 1</a></li>
+				<li><a href="Calcolatrice_2.html">Es. Calcolatrice 2</a></li>
+				<li><a href="Calcolatrice_3.html">Es. Calcolatrice 3</a></li>
+				<li><a href="Events.html">Es. Eventi</a></li>
+				<li><a href="Overlay.html">Es. Overlay</a></li>
+				<li><a href="Animazione.html">Es. Animazione</a></li>
+				<li><a href="../index.php">Back Home</a></li>	   	
+			</ol>           
+		</nav>
+	
+		<div id="content">		
+			<form name="myForm" >
+				<label for="nome">Nome:</label>
+				<input type="text" id="nome" placeholder="Nome" onchange="cleanInput()" />
+				<label for="cognome">Cognome:</label>
+				<input type="text" id="cognome" placeholder="Cognome" />
+				<br/>
+				<input type="text" id="data" placeholder="Data nascita: dd.mm.yyyy"/>
+				<input type="text" id="eta" placeholder="Et&agrave; della persona"/>
+				<input type="text" id="cf" placeholder="Codice Fiscale"/>
+				<input type="button" value="Check" onclick="checkInput()"/>
+			</form>
+	    
+			<div id="risultato">
+					...
+			</div>
+		</div>
+
+		<div class="overlay" id="overlay">
+			<p id="msgBox" onclick="hideOverlay()">Messaggio Importante</p>
+		</div>
+		<footer>footer</footer>
+</body>
+</html>

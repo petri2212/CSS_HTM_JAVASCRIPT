@@ -1,0 +1,23 @@
+
+nav{
+	float:left;
+	color:blue;	
+	border: 1px dotted black;
+}
+nav ul{ 
+	border: 1px solid black;
+}
+
+
+
+div{       
+	float:left;
+	padding:3px;
+	border: 1px dashed red;
+	text-align: center;	
+	width: 500px;
+}
+
+p{
+	border: 1px solid green;	
+}

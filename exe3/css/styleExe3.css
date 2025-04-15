@@ -1,0 +1,100 @@
+
+
+h1 {
+	top:-0px;
+	padding:0px;
+	font-size : 100px;
+	background: #88FACA;
+	color:  #251382;
+}
+
+ol {
+	list-style-type: none;
+	font-size: 30px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	position: relative;
+	float:left;
+}
+
+
+
+li {
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: #111;
+}
+
+.active {
+	background-color: #04AA6D;
+}
+
+a{
+	color:black;
+}   
+a:hover{
+	color: red;
+}
+
+input, button {
+	font-size:40px;
+}
+
+#content{   
+	float:left;
+	margin-left:5px;
+	font-size: 50px;
+	padding:20px;
+	background-color: #FFEFDF;
+	border-color:red;
+	border: 1px solid black;
+	height:55vh;
+	width: 75vw;
+}
+#container {
+	margin-top:10px;
+	width: 80%;
+	height: 80%;
+	position: relative;
+	background: #99FFCC;
+}
+#animate {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	background-color: #990000;
+}
+footer{          
+	position:fixed;
+	font-size:30px;
+	width: 100%;
+	bottom:0%;
+	background: #2ba1a3;
+	text-align: center;
+}
+
+.tabella{
+	border: 2px solid #a24014;	
+}
+.testata{
+	background: #1239A1;
+	color:yellow;
+}
+.rigaPari { 
+	background: #E9fff0;
+}
+.rigaDispari {  
+	background: #E5EEFF;
+}
+
